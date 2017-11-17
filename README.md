@@ -11,7 +11,7 @@ From the first week after you learn how to do TDD, two katas will be released ev
   $ cd part-time-katas-november-2017
   ```
 
-3. Run this command in your terminal:
+3. If you are using Linux or Mac, run this command in your terminal:
 
 `$ echo "mocha **/*.spec.js" > .git/hooks/pre-commit && chmod +x .git/hooks/pre-commit`
 
