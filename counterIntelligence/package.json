@@ -4,9 +4,9 @@
   "description": "",
   "main": "counterIntelligence.js",
   "scripts": {
-   "test": "mocha ./spec",
-   "lint": "eslint ./"
- },
+    "test": "mocha ./spec",
+    "lint": "eslint ./"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
