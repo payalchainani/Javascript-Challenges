@@ -12,11 +12,11 @@ describe('findMissingLetter()', function () {
     it('returns an empty string if no letter is missing ', function () {
     expect(findMissingLetter(['a', 'b', 'c', 'd', 'e'])).to.equal('');
     });
-    it('returns the letter that is missing in an array of ordered letters', function () {
+    it('returns the letter that is missing in an ordered letters', function () {
     expect(findMissingLetter(['a', 'b', 'c', 'e'])).to.equal('d');
     });
     
-    it('returns the letter that is missing in an array of ordered UPPERCASE letters', function () {
+    it('returns the letter that is missing in an ordered list with UPPERCASE letters', function () {
     expect(findMissingLetter(['E', 'F', 'G', 'I'])).to.equal('H');
     });
   
